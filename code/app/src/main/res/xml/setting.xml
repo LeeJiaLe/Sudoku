@@ -1,0 +1,31 @@
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+
+    <ListPreference
+        android:defaultValue="0"
+        android:entries="@array/save_type"
+        android:entryValues="@array/index"
+        android:key="save_type"
+        android:summary="%s"
+        android:title="Set Saving Type" />
+    <ListPreference
+        android:defaultValue="0"
+        android:entries="@array/timer"
+        android:entryValues="@array/index"
+        android:key="timer_type"
+        android:summary="%s"
+        android:title="Set Timer Style" />
+    <Preference
+        android:title="Delete Save Data"
+        android:key="delete_save_data"
+        android:summary="warning: this action cannot reverse"
+        />
+
+    <Preference
+        android:title="Clear Leader Board"
+        android:key="clear_leader_board"
+        android:summary="warning: this action cannot reverse"
+        />
+
+</PreferenceScreen>

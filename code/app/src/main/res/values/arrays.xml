@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="save_type">
+        <item>Always</item>
+        <item>Ask</item>
+        <item>Never</item>
+    </string-array>
+
+    <string-array name="timer">
+        <item>0:00:00</item>
+        <item>0 hours 0 mins 0 secs</item>
+        <item>Not showing</item>
+    </string-array>
+
+    <string-array  name="index">
+        <item>0</item>
+        <item>1</item>
+        <item>2</item>
+    </string-array>
+</resources>
